@@ -1,0 +1,93 @@
+
+$color-blue: #445B8B;
+$color-teal: #3CADD7;
+
+//$bodyfont: 'EB Garamond', serif;
+$bodyfont: 'Lora', ;
+$titlefont: 'Gochi Hand', ;
+
+body {
+    font-family: $bodyfont;
+    font-size: .8em;
+}
+
+h1, h2, h3 {
+    font-family: $titlefont;
+}
+
+.logo {
+    font-family: $titlefont;
+    
+}
+
+h1 {
+    font-size: 8.5em;
+}
+
+
+
+@media (max-width: 1200px){
+    h1 {
+        font-size: 7em;
+    }
+} 
+
+@media (max-width: 992px){
+    h1 {
+        font-size: 5em;
+    }
+    p {
+        font-size: .8em;
+    }
+} 
+
+@media (max-width: 768px){
+    h1 {
+        font-size: 4em;
+    }
+    p {
+        font-size: .8em;
+    }
+} 
+
+.navbar-nav {
+    min-width: 80%;
+}
+
+.navbar-nav > li {
+    min-width: 25%;
+}
+
+.navbar-brand {
+    border-style: solid;
+
+}
+
+.spacer {
+    min-height: 50%;
+}
+
+.main-heading {
+    padding-top: 20%;
+    padding-bottom: 10%;
+    line-height: .9em;
+}
+
+.sub-heading {
+    padding-right: 40%;
+}
+
+.main-block {
+    background-color: $color-teal;
+    padding-top: 20%;
+    padding-bottom: 10%;
+}
+
+.site-footer {
+    background-color: $color-blue;
+    padding: 20px 0;
+}
+
+.fa-social {
+    color: white;
+}
